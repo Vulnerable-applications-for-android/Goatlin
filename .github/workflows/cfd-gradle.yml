@@ -33,7 +33,7 @@ jobs:
     - name: Build with Gradle
       uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef
       with:
-        gradle-version: 5.1.1
+        gradle-version: 7.2
         arguments: build
         build-root-directory: /home/runner/work/Goatlin/Goatlin/packages/clients/android
 
