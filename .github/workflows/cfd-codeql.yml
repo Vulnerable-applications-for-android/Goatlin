@@ -69,8 +69,9 @@ jobs:
     - name: Build with Gradle
       uses: gradle/gradle-build-action@3fbe033aaae657f011f88f29be9e65ed26bd29ef
       with:
+        gradle-version: 7.2
         arguments: build
-        build-root-directory: /home/runner/work/Goatlin-develop/Goatlin-develop/packages/clients/android
+        build-root-directory: /home/runner/work/Goatlin/Goatlin/packages/clients/android
 
       
     # ℹ️ Command-line programs to run using the OS shell.
